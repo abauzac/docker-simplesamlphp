@@ -102,16 +102,19 @@ $config = array(
             'uid' => array('tesla'),
             'displayName' => 'Tesla',
             'groups' => array('developer','browser'),
+            'mail' => array('email1@example.com','email2@example.com'),
         ),
         'curie:password' => array(
             'uid' => array('curie'),
             'displayName' => 'Curie',
             'groups' => array('browser'),
+            'mail' => array('email1@example.com','email2@example.com'),
         ),
         'nobel:password' => array(
             'uid' => array('nobel'),
             'displayName' => 'Nobel',
             'groups' => array('administrator'),
+            'mail' => array('email1@example.com','email2@example.com'),
         ),
 
     ),
