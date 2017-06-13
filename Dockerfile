@@ -2,7 +2,7 @@
 #
 # VERSION               1.0.0
 
-FROM      ubuntu:14.04
+FROM ubuntu:14.04
 MAINTAINER John Ryan "jnyryan@gmail.com"
 
 ENV DEBIAN_FRONTEND noninteractive
