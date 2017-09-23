@@ -1,6 +1,6 @@
 <?php
-/* [kuisathaverat] Configuring the IdP */
-$metadata['SimpleSAMLAuthExampleIdpRemote'] = array(
+/*
+$metadata['IdP-Remote'] = array(
   'host' => '__DEFAULT__',
 
   'privatekey' => 'server.pem',
@@ -25,3 +25,4 @@ $metadata['SimpleSAMLAuthExampleIdpRemote'] = array(
   ),
 ),
 );
+*/
