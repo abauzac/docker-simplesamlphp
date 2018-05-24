@@ -39,7 +39,7 @@ RUN echo "extension=mcrypt.so" >>  /etc/php5/mods-available/mcrypt.ini
 RUN php5enmod mcrypt
 WORKDIR /var/simplesamlphp
 RUN curl -sS https://getcomposer.org/installer | php
-RUN php composer.phar install
+RUN php composer.phar install --version=1.6.4
 
 ADD ./etc/simplesamlphp/cert/server.crt /var/simplesamlphp/cert/server.crt
 ADD ./etc/simplesamlphp/cert/server.pem /var/simplesamlphp/cert/server.pem
